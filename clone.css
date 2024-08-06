@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    
+    
+
+}
+.container{
+    background-color: white;
+}
+.navbar1{
+    width:100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nc2{
+
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 50px;
+}
+.nc2 p{
+    
+    
+    font-size: 20px;
+    
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.nc2 button{
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: gray;
+    
+   margin-top: 5px;
+   margin-left: 20px;
+    cursor: pointer;
+    
+
+}
+
+.nc2 button:hover{
+    background-color: rgba(234, 223, 223, 0.856);
+
+}
+.nimg2 button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 2px;
+}
+.nimg2 button:hover{
+    background-color: rgba(207, 203, 203, 0.526);
+}
+ .ncc{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+    
+}
+
+.nc3 button{
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 200px;
+   
+    
+    color: rgb(0, 0, 0);
+   
+    cursor: pointer;
+    
+}
+.nc3 button:hover{
+    background-color: rgba(234, 223, 223, 0.856);
+    height: 60px;
+}
+
+
+
+.nc31 button{
+    border-color: gray;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.nc31 button:hover{
+box-shadow: 7px 7px 5px rgb(188, 188, 188);
+}
+
+.navbar2 {
+    width:55%;
+    height: 10vh;
+    display: flex;
+    justify-content:flex-start;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(188, 188, 188); 
+
+}
+.navbar2 button {
+    
+    background-color: white;
+    border: none;
+    border-right: 1px solid rgba(128, 128, 128, 0.644);
+    
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    
+}
+.navbar2 button:hover{
+    background-color: rgba(234, 223, 223, 0.856);
+    border-radius: 20px;
+    
+
+}
+.sp{
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    margin-top:20px;
+}
+.sp1{
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    
+}
+.iconli{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%; 
+    overflow-x: auto;
+    white-space: nowrap;
+    
+}
+.iconli img{
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    
+}
+.iconli p{
+    padding-top: 10px;
+    color:gray;
+    font-size: 12px;
+}
+.iconli1{
+    width: 90%;
+    margin-left: 80px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   border-top: 1px solid rgb(237, 226, 226);
+   padding: 15px;
+   
+
+}
+.iconli div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.iconli div:hover{
+    border-bottom: 2px solid rgb(172, 168, 168);
+    
+}
+.iconli img:hover{
+    opacity: 1;
+}
+.iconli p:hover{
+    color: black;
+}
+.ic1 button {
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color: #ffffff;
+ 
+}
+.ic1 button i{
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+.img1{
+    width: 90%;
+    margin-left: 80px;
+    display: flex;
+    justify-content:space-around;
+
+}
+.navbar2 .ic{
+    position: relative;
+}
+.navbar2 .ic i{
+    position: absolute;
+    padding:10px;
+    left:170px;
+    bottom: -8px;
+    
+    background-color: rgb(242, 71, 99);
+    color: #ffffff;
+    font-size: 28px;
+    border-radius:50%;
+    
+    
+
+    border: none;
+    cursor: pointer;
+}
+.up1{
+    position: relative;
+}
+.up1 button{
+    position: absolute;
+    top:3%;
+    right: 3%;
+    font-size:20px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(234, 220, 220, 0.882);
+    cursor: pointer;
+}
+.up1 button:hover{
+    background-color: #ffffff;
+    transform:scale(1.2);
+}
+.img2{
+    width: 90%;
+    margin-left: 80px;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+.up1{position: relative;}
+.up2 i{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    position: absolute;
+    bottom:130px;
+    left:85%;
+    width:30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: none;
+    
+
+}
+.up1:hover i{
+    display: block;
+
+}
+.up2 i:hover{
+    transform:scale(1.1);
+}
+
+.up2{
+    position: relative;
+}
+.a{position: absolute;
+    left:40%;
+    bottom:5%;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+.b{position: absolute;
+    left:44%;
+    bottom:5%;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(204, 204, 204);
+}
+.c{position: absolute;
+    left:48%;
+    bottom:5%;
+    height: 6.8px;
+    width: 6.8px;
+    border-radius: 50%;
+    background-color: rgb(204, 204, 204);
+}
+.d{position: absolute;
+    left:52%;
+    bottom:5%;
+    height: 6.5px;
+    width: 6.5px;
+    border-radius: 50%;
+    background-color: rgb(171, 170, 170);
+}
+.e{position: absolute;
+    left:56%;
+    bottom:5%;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(105, 105, 105);
+}
+.navbar2 input{
+  
+    border:1px solid white;
+
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.griditems{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px; /* Adjust the gap between grid items as needed */
+    width: 80%;
+    margin-left: 95px;
+    
+    box-sizing: border-box;
+}
+
+.griditems img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;object-fit: cover;cursor: pointer;
+}
+.griditems p{
+    margin-top: 3px;
+    cursor: pointer;color: gray;
+
+}
+.gd{
+    position: relative;
+}
+.gd button{
+    position: absolute;
+    right:10px;
+    top:10px;
+    font-size:20px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(234, 220, 220, 0.882);
+    cursor: pointer;
+    
+    
+}
+.gd button:hover{
+    background-color: #ffffff;
+    transform:scale(1.2);
+}
+.gd .gdi i{
+    position: absolute;
+    right: 10px;
+    top:130px;
+    font-size:20px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: rgba(234, 220, 220, 0.882);
+    border: 1px solid grey;
+    cursor: pointer;
+    
+}
